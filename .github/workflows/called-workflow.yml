@@ -1,0 +1,7 @@
+name: my workflow
+
+on: [puh]
+
+jobs:
+  calling-workflow-from-diff-repo:
+    uses: TamminaRajasekhar/
