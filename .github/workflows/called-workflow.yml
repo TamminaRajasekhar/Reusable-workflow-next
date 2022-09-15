@@ -3,7 +3,7 @@ name: my workflow
 on: [push]
 
 jobs:
-  calling-workflow-from-diff-repo:
+  calling-workflow-from-diff-repoo:
     uses: TamminaRajasekhar/Reusable-workflow/.github/workflows/work-flow-1.yml@main
   calling-workflow-from-diff-repo-SHA:
     uses: TamminaRajasekhar/Reusable-workflow/.github/workflows/work-flow-1.yml@681f7c405ea044ccc15fac109bb9a5f12bc22baa
