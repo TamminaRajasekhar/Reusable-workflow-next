@@ -5,3 +5,9 @@ on: [push]
 jobs:
   calling-workflow-from-diff-repo:
     uses: TamminaRajasekhar/Reusable-workflow/.github/workflows/work-flow-1.yml@main
+  calling-workflow-from-diff-repo-v1:
+    uses: TamminaRajasekhar/Reusable-workflow/.github/workflows/work-flow-1.yml@v1
+  calling-workflow-from-diff-repo-SHA:
+    uses: TamminaRajasekhar/Reusable-workflow/.github/workflows/work-flow-1.yml@
+    
+    
