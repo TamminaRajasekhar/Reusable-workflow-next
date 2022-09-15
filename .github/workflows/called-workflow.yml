@@ -1,7 +1,7 @@
 name: my workflow
 
-on: [puh]
+on: [push]
 
 jobs:
   calling-workflow-from-diff-repo:
-    uses: TamminaRajasekhar/
+    uses: TamminaRajasekhar/Reusable-workflow/.github/workflows/work-flow-1.yml@main
